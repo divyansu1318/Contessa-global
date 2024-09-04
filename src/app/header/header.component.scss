@@ -87,3 +87,20 @@
     visibility: visible;
 }
 
+@media (min-width: 768px) {
+    .navbar-collapse.collapse {
+        display: flex  !important;
+        flex-direction: row-reverse;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        margin: 5px 15px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    font-weight: bold;
+    }
+
+    
+}
